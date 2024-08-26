@@ -1,0 +1,6 @@
+@ChatQueueManagementSystem.Presentation_HostAddress = http://localhost:5003
+
+GET {{ChatQueueManagementSystem.Presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

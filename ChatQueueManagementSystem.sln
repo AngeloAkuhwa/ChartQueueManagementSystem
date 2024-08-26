@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Presentation", "ChatQueueManagementSystem.Presentation\ChatQueueManagementSystem.Presentation.csproj", "{67944CEC-44F9-4117-89B9-A63BDA0ECBA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Application", "ChatQueueManagementSystem.Application\ChatQueueManagementSystem.Application.csproj", "{535938CC-2DC7-489B-9EDC-565212093529}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Domain", "ChatQueueManagementSystem.Domain\ChatQueueManagementSystem.Domain.csproj", "{79536D3D-64CD-466D-BE98-777887EED551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Infrastructure", "ChatQueueManagementSystem.Infrastructure\ChatQueueManagementSystem.Infrastructure.csproj", "{F6785D21-6022-40EF-83B9-CC92AC089DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Tests", "ChatQueueManagementSystem.Tests\ChatQueueManagementSystem.Tests.csproj", "{7D589041-43D3-4320-AE1B-B9C9F4BC4EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChatQueueManagementSystem.Persistence", "ChatQueueManagementSystem.Persistence\ChatQueueManagementSystem.Persistence.csproj", "{67F4581A-4C19-4108-B153-63984F88778D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67944CEC-44F9-4117-89B9-A63BDA0ECBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67944CEC-44F9-4117-89B9-A63BDA0ECBA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67944CEC-44F9-4117-89B9-A63BDA0ECBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67944CEC-44F9-4117-89B9-A63BDA0ECBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{535938CC-2DC7-489B-9EDC-565212093529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{535938CC-2DC7-489B-9EDC-565212093529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{535938CC-2DC7-489B-9EDC-565212093529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{535938CC-2DC7-489B-9EDC-565212093529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79536D3D-64CD-466D-BE98-777887EED551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79536D3D-64CD-466D-BE98-777887EED551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79536D3D-64CD-466D-BE98-777887EED551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79536D3D-64CD-466D-BE98-777887EED551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6785D21-6022-40EF-83B9-CC92AC089DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6785D21-6022-40EF-83B9-CC92AC089DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6785D21-6022-40EF-83B9-CC92AC089DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6785D21-6022-40EF-83B9-CC92AC089DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D589041-43D3-4320-AE1B-B9C9F4BC4EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D589041-43D3-4320-AE1B-B9C9F4BC4EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D589041-43D3-4320-AE1B-B9C9F4BC4EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D589041-43D3-4320-AE1B-B9C9F4BC4EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67F4581A-4C19-4108-B153-63984F88778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67F4581A-4C19-4108-B153-63984F88778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67F4581A-4C19-4108-B153-63984F88778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67F4581A-4C19-4108-B153-63984F88778D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C575CB80-0E57-40E2-852B-80D006CF07D2}
+	EndGlobalSection
+EndGlobal
