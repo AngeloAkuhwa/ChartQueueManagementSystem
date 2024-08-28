@@ -17,6 +17,7 @@ The **Chat Queue Management System** is designed to manage and optimize the assi
 
 **Agent Assignment(RabbitMqConsumer.cs file) and TaskMonitor Services(MonitorChatSessionsTask.cs):**
 The core functionalities, including the Agent assignment and TaskMonitor services, are implemented as extensions of IHostedService. This design choice ensures that these services are automatically managed by the .NET hosting environment. As IHostedService implementations, they start and stop automatically with the application, handling tasks like continuous monitoring and agent assignment without requiring manual intervention.
+
 **Manual Agent Assignment API:**
 Despite the automation provided by the hosted services, the API for agent assignment is also included. This API endpoint is available to support scenarios where manual intervention is needed. Sometimes support teams require the ability to manually assign chats to specific agents, particularly in cases where automated assignment may not align with immediate business needs. This flexibility ensures that the system can accommodate both automated and manual workflows.
 
